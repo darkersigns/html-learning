@@ -4,3 +4,8 @@ p.special_paragraph {
     padding: 17px;
     margin: 39px;
 }
+
+button.shitty_button{
+    position: absolute;
+    top: 50%;
+}

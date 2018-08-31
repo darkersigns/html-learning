@@ -77,8 +77,8 @@ lines. Doesn't matter in the browser though. Clever son of a bitch this HTML</p>
     Think of all the poems you could write with this badboy!
 </pre>
 
-<h1 style="font-family:'Comic Sans MS', Serif;">This heading has been changed to use Comic Sans. The cardinal sin...</h1>
-<p style="font-family:'Calibri', Serif; font-size:130%; color:saddlebrown;">This paragraph aimed to fix that. I don't think it was all that successful...Something interesting to note though is that you can change the size of the font to a percentage aswell as a pixel size. That's kinda cool!</p>
+<h1 style="font-family:'Comic Sans MS', serif;">This heading has been changed to use Comic Sans. The cardinal sin...</h1>
+<p style="font-family:'Calibri', serif; font-size:130%; color:saddlebrown;">This paragraph aimed to fix that. I don't think it was all that successful...Something interesting to note though is that you can change the size of the font to a percentage aswell as a pixel size. That's kinda cool!</p>
 <!--Apparently it's a good idea to have a fallback font if the first should fail to load. So the second font is the fallback.-->
 
 <p style="text-align:center;">Chose your alignment!</p>
@@ -132,6 +132,16 @@ lines. Doesn't matter in the browser though. Clever son of a bitch this HTML</p>
 <p class="special_paragraph"> This paragraph is special. It has CSS styling. Everybody hates this paragraph but he looks spiffy AF!</p>
 
 <a href="#top_of_page">This will take you to the top of the page. There is no way back from this...</a>
+
+<picture>
+    <source media="(min-width: 650px)" srcset="resources/13dp072np4fz.png">
+    <source media="(min-width: 450px)" srcset="resources/36227199_10155542720941024_1992635388191047680_n.jpg">
+    <img src="resources/13dp072np4fz.png" alt="normal_image" style="width:auto;">
+</picture>
+
+<!--This will show a different image on screen depending on how wide the screen is. Useful for having smaller resolution copies of the same image for different views-->
+
+
 
 </body>
 </html>
