@@ -9,3 +9,41 @@ button.shitty_button{
     position: absolute;
     top: 50%;
 }
+
+table#special_table {
+    width: auto;
+    background-color: orangered;
+
+}
+
+table#special_table tr:nth-child(even){
+    background-color: purple;
+}
+
+table#special_table tr:nth-child(odd){
+    background-color: blue;
+}
+
+ul#navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li a {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
