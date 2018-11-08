@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<ul id="navigationbar">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="full_background.html">Big Picture</a></li>
+    <li><a href="javascript.html">WTH issat?</a></li>
+</ul>
+
+<h1>This is where we learn about Javascript</h1>
+
+<p>This is an example of javascript changing something that already exists. Clicking this button will do crazy things...</p>
+
+<button type="button" onclick="changeonclick()">You won't believe what happens next</button>
+
+<p id="changecontent">This way</p>
+
+<script>
+    function changeonclick() {
+        document.getElementById("changecontent").innerHTML = "That way!";
+    }
+</script>
+
+</body>
+</html>
